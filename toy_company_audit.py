@@ -34,4 +34,13 @@ def assess_controls(self):
 def calculate_risk(self):
         self.risk_score -= len(self.controls_implemented) // 3
         print(f"Risk score reduced to {self.risk_score}")
+
+def main():
+    audit = BotiumToysAudit()
+    audit.identify_assets()
+    audit.assess_controls()
+    audit.calculate_risk()
+
+if __name__ == "__main__":
+    main()       
     
