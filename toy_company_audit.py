@@ -31,5 +31,7 @@ def assess_controls(self):
         print("Time to crack the security code!")
         controls = ["NIST CSF", "Identify", "Classify", "Impact Analysis", "Encryption", "Access Controls", "Firewall", "Antivirus", "IDS", "Disaster Recovery", "Password Policy", "Legacy System Maintenance", "Physical Security"]
         
-
+def calculate_risk(self):
+        self.risk_score -= len(self.controls_implemented) // 3
+        print(f"Risk score reduced to {self.risk_score}")
     
