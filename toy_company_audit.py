@@ -10,3 +10,13 @@ class BotiumToysAudit:
             "data_retention_storage": 0,
             "legacy_systems": 0
         }
+        self.risk_score = 8
+        self.controls_implemented = [
+            "nist_csf",
+            "identify",
+            "access_controls",
+            "antivirus",
+            "ids",
+            "disaster_recovery",
+            "password_policy"
+        ]
