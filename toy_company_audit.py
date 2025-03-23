@@ -1,3 +1,4 @@
+import random
 class BotiumToysAudit:
      def __init__(self):
         self.assets = {
@@ -20,3 +21,10 @@ class BotiumToysAudit:
             "disaster_recovery",
             "password_policy"
         ]
+def identify_assets(self):
+    print("Let's embark on a treasure hunt to discover Botium Toys' hidden assets!")
+    for asset in self.assets:
+        self.assets[asset] = random.randint(1, 10)
+        print(f"Found {self.assets[asset]} of {asset}")
+
+    
