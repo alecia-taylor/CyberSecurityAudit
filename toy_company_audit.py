@@ -27,4 +27,9 @@ def identify_assets(self):
         self.assets[asset] = random.randint(1, 10)
         print(f"Found {self.assets[asset]} of {asset}")
 
+def assess_controls(self):
+        print("Time to crack the security code!")
+        controls = ["NIST CSF", "Identify", "Classify", "Impact Analysis", "Encryption", "Access Controls", "Firewall", "Antivirus", "IDS", "Disaster Recovery", "Password Policy", "Legacy System Maintenance", "Physical Security"]
+        
+
     
